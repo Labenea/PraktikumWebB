@@ -60,12 +60,18 @@ main .container {
 a button {
   margin-top: 1em;
   background-color: lightskyblue;
-  border: none;
+  border: solid transparent;
   padding: 7px 20px;
   color: whitesmoke;
   font-size: 17px;
   outline: none;
   font-weight: bold;
+}
+a button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: lightskyblue;
+  border: solid lightskyblue;
 }
 #footer {
   padding: 14px 0px;
@@ -73,4 +79,8 @@ a button {
 }
 footer h5 {
   text-align: center;
+  margin-left: 8px;
+}
+footer a img {
+  display: block;
 }
