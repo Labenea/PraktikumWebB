@@ -6,7 +6,7 @@
 html {
   scroll-behavior: smooth;
 }
-li {
+nav li {
   display: inline;
   margin-right: 2em;
 }
@@ -22,7 +22,7 @@ nav h1 {
   color: white;
   display: inline;
 }
-ul {
+nav ul {
   display: inline;
 }
 li a {
@@ -83,4 +83,13 @@ footer h5 {
 }
 footer a img {
   display: block;
+}
+.abt {
+  margin-top: 2em;
+  text-align: center;
+}
+.abt-text {
+}
+.text-center {
+  text-align: center;
 }
