@@ -94,3 +94,22 @@ body {
     font-size: 18px;
   }
 }
+
+.login-form {
+  margin: auto;
+  max-width: 400px;
+  text-align: center;
+  #inputEmail {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  #inputPassword {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+}
+
+.register-form {
+  margin: auto;
+  max-width: 600px;
+}

@@ -6,7 +6,7 @@ class NavBar extends HTMLElement {
     this.innerHTML = `
       <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">PetaniKita</a>
+        <a class="navbar-brand" href="./index.html">PetaniKita</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,12 +38,12 @@ class NavBar extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbarsExample04">
           <ul class="navbar-nav ml-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="btn btn-success mr-2" aria-current="page" href="#"
+              <a class="btn btn-success mr-2" aria-current="page" href="./login.html"
                 >Login</a
               >
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary" aria-current="page" href="#"
+              <a class="btn btn-primary" aria-current="page" href="./register.html"
                 >Sign Up</a
               >
             </li>

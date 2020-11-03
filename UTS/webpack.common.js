@@ -24,6 +24,14 @@ module.exports = {
       template: "./src/pages/index.html",
       filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/login.html",
+      filename: "login.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/register.html",
+      filename: "register.html",
+    }),
   ],
   optimization: {
     splitChunks: {
