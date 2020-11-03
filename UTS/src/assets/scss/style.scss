@@ -1,8 +1,11 @@
 @import "./mixins.scss";
 @import "./var.scss";
 $font-family-base: $font-open-sans !default;
-
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 4.5em;
+}
 
 .carousel-inner {
   border-radius: 10px;

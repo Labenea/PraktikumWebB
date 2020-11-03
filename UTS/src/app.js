@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./assets/scss/style.scss";
+import "./js/component/nav-bar.js";
 import { Tooltip, Toast, Popover } from "bootstrap";
 
 AOS.init({
@@ -23,5 +24,3 @@ AOS.init({
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
 });
-
-AOS.refresh();
